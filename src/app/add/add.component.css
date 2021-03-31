@@ -1,0 +1,38 @@
+.title{
+    color:green;
+    font-size: large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font: bolder;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+   
+    opacity:1;
+  }
+  
+  .a{
+    width: 480px;
+
+    border-radius: 50%;
+    border-top: 16px solid red;
+  animation: spin 1s linear infinite;
+  margin: auto;
+  
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    /* 100% { transform: rotate(360deg); } */
+  }
